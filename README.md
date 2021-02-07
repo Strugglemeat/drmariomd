@@ -18,3 +18,4 @@ and some of the bugs/problems:
 * the movement is not progressive - the pill moves the same amount regardless of how long you hold it down. in the original game, the longer you hold down or left/right, the faster the pill will move.
 * rotating the pill right before it lands can be buggy
 * sometimes the music doesn't loop
+* I used waitMs(500) instead of properly implementing timers, so the virus monsters stop dancing during the 'pause' of tiles being destroyed
