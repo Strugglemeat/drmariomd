@@ -13,6 +13,7 @@ note that this port is far from complete. here are some of the things it's missi
 * ending screens
 * title screen music (couldn't find a suitable MIDI to convert)
 * many sound effects
+* the monsters don't play their dying animation, they just disappear
 
 and some of the bugs/problems:
 * when generating a field of viruses, there are no checks done - this isn't the way the original game does it. sometimes there'll be matches from the very start, especially at higher levels
@@ -20,4 +21,3 @@ and some of the bugs/problems:
 * rotating the pill right before it lands can be buggy
 * sometimes the music doesn't loop
 * I used waitMs(500) instead of properly implementing timers, so the virus monsters stop dancing during the 'pause' of tiles being destroyed and gravity.
-* the monsters don't play their dying animation, they just disappear
