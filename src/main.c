@@ -1,4 +1,4 @@
-//dr mario ported to mega drive in SGDK 1.60 by Strugglemeat in Jan 2021
+//dr mario ported to mega drive in SGDK 1.60 by Strugglemeat in Jan/Feb 2021
 #include <genesis.h>
 #include <resources.h>
 
@@ -97,7 +97,6 @@ if(donedrawing==0)
 	SPR_update();
 	XGM_setLoopNumber(-1);
 	//XGM_startPlay(titlemus);
-	//VDP_drawText("beta 0.97 for Personasama",5,17);
 	donedrawing=1;
 	}
 u16 value = JOY_readJoypad(JOY_1);
